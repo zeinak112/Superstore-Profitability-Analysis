@@ -131,20 +131,23 @@ The dashboards were designed to move from high-level business performance to det
 
 ---
 
-### 📊 Dashboard Preview
+## 📊 Dashboard Preview
 
-#### Excel Dashboard
-![Excel Dashboard](images/excel-dashboard.png)
+### Excel Dashboard
 
-#### Power BI – Executive Summary
-![Power BI Executive Summary](images/powerbi-executive.png)
+![Excel Dashboard](images/excel-dashboard.png.png)
 
-#### Power BI – Profitability Analysis
-![Power BI Profitability Analysis](images/powerbi-profitability.png)
+### Power BI – Executive Summary
 
-#### Power BI – Regional & Customer Analysis
-![Power BI Regional Analysis](images/powerbi-regional.png)
+![Power BI Executive Summary](images/powerbi-executive.png.png)
 
+### Power BI – Profitability Analysis
+
+![Power BI Profitability Analysis](images/powerbi-profitability.png.png)
+
+### Power BI – Regional & Customer Analysis
+
+![Power BI Regional Analysis](images/powerbi-regional.png.png)
 ---
 
 ## 💡 Key Findings
@@ -265,7 +268,7 @@ Superstore-Profitability-Analysis/
 
 ## 🎥 Project Demo
 
-[▶️ Watch the Project Demo](images/project-demo.mp4)
+[▶️ Watch the Project Demo](images/project-demo.mp4.mp4)
 
 ---
 
