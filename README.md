@@ -1,6 +1,5 @@
 # Where Is Superstore Losing Profit, and How Can We Fix It?
 
-![Dashboard Preview](images/excel-dashboard.png)
 
 > **A business-focused sales and profitability case study built using Excel and Power BI.**
 
@@ -26,7 +25,7 @@ This analysis aims to answer:
 
 ## 📊 Dataset
 
-* **Source:** [Kaggle – Superstore Dataset by Vivek Chowdhury](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+* **Source:** [Kaggle – Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 * **Records:** 9,993 rows
 * **Columns:** 25 after transformation
 * **Period:** January 2014 – December 2017
@@ -44,14 +43,14 @@ The dataset was transformed to support business analysis by adding:
 
 ## 🛠️ Tools Used
 
-| Tool | Purpose |
-| --- | --- |
-| **Microsoft Excel** | Data analysis, Pivot Tables, KPIs and interactive dashboard |
-| **Power Query** | Data cleaning and transformation |
-| **Power Pivot / Pivot Tables** | Aggregation and exploratory analysis |
-| **Power BI** | Interactive business intelligence dashboard |
-| **DAX** | Measures and profitability calculations |
-| **GitHub** | Project documentation and portfolio presentation |
+| Tool                           | Purpose                                                     |
+| ------------------------------ | ----------------------------------------------------------- |
+| **Microsoft Excel**            | Data analysis, Pivot Tables, KPIs and interactive dashboard |
+| **Power Query**                | Data cleaning and transformation                            |
+| **Power Pivot / Pivot Tables** | Aggregation and exploratory analysis                        |
+| **Power BI**                   | Interactive business intelligence dashboard                 |
+| **DAX**                        | Measures and profitability calculations                     |
+| **GitHub**                     | Project documentation and portfolio presentation            |
 
 ---
 
@@ -132,22 +131,18 @@ The dashboards were designed to move from high-level business performance to det
 
 ---
 
-## 📊 Dashboard Preview
+### 📊 Dashboard Preview
 
-### Excel Dashboard
-
+#### Excel Dashboard
 ![Excel Dashboard](images/excel-dashboard.png)
 
-### Power BI – Executive Summary
-
+#### Power BI – Executive Summary
 ![Power BI Executive Summary](images/powerbi-executive.png)
 
-### Power BI – Profitability Analysis
-
+#### Power BI – Profitability Analysis
 ![Power BI Profitability Analysis](images/powerbi-profitability.png)
 
-### Power BI – Regional & Customer Analysis
-
+#### Power BI – Regional & Customer Analysis
 ![Power BI Regional Analysis](images/powerbi-regional.png)
 
 ---
@@ -240,9 +235,11 @@ By identifying loss-making products, controlling excessive discounts, and focusi
 
 ---
 
-## 📁 Repository Structure
+
+📁 Repository Structure
 
 ```text
+
 Superstore-Profitability-Analysis/
 │
 ├── Data/
@@ -262,3 +259,28 @@ Superstore-Profitability-Analysis/
 │   └── project-demo.mp4
 │
 └── README.md
+```
+
+---
+
+## 🎥 Project Demo
+
+[▶️ Watch the Project Demo](images/project-demo.mp4)
+
+---
+
+## 📂 Project Files
+
+* [Excel Analysis](Excel/Superstore_Analysis_Styled.xlsx)
+* [Power BI Report](PowerBI/Executive_Sales_Dashboard_safe.pbix)
+* [Dataset](Data/Sample%20-%20Superstore.csv)
+---
+
+## 👩‍💻 Author
+
+**Zeinab Khaled**
+Data Analyst | Business Information Systems Graduate
+
+Interested in **Data Analysis, Business Intelligence, SQL, Excel and Power BI**.
+
+[LinkedIn](https://www.linkedin.com/in/zeinab-khaled-9a5ab8416/)
