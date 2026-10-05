@@ -26,7 +26,7 @@ This analysis aims to answer:
 
 ## 📊 Dataset
 
-* **Source:** [Kaggle – Superstore Dataset](https://www.kaggle.com/datasets/xubao666/superstore)
+* **Source:** [Kaggle – Superstore Dataset by Vivek Chowdhury](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 * **Records:** 9,993 rows
 * **Columns:** 25 after transformation
 * **Period:** January 2014 – December 2017
@@ -44,14 +44,14 @@ The dataset was transformed to support business analysis by adding:
 
 ## 🛠️ Tools Used
 
-| Tool                           | Purpose                                                     |
-| ------------------------------ | ----------------------------------------------------------- |
-| **Microsoft Excel**            | Data analysis, Pivot Tables, KPIs and interactive dashboard |
-| **Power Query**                | Data cleaning and transformation                            |
-| **Power Pivot / Pivot Tables** | Aggregation and exploratory analysis                        |
-| **Power BI**                   | Interactive business intelligence dashboard                 |
-| **DAX**                        | Measures and profitability calculations                     |
-| **GitHub**                     | Project documentation and portfolio presentation            |
+| Tool | Purpose |
+| --- | --- |
+| **Microsoft Excel** | Data analysis, Pivot Tables, KPIs and interactive dashboard |
+| **Power Query** | Data cleaning and transformation |
+| **Power Pivot / Pivot Tables** | Aggregation and exploratory analysis |
+| **Power BI** | Interactive business intelligence dashboard |
+| **DAX** | Measures and profitability calculations |
+| **GitHub** | Project documentation and portfolio presentation |
 
 ---
 
@@ -243,16 +243,16 @@ By identifying loss-making products, controlling excessive discounts, and focusi
 ## 📁 Repository Structure
 
 ```text
-Superstore-Sales-Profitability-Analysis/
+Superstore-Profitability-Analysis/
 │
-├── data/
-│   └── Superstore.xlsx
+├── Data/
+│   └── Sample - Superstore.csv
 │
-├── excel/
+├── Excel/
 │   └── Superstore_Analysis_Styled.xlsx
 │
-├── powerbi/
-│   └── Executive_Sales_Dashboard.pbix
+├── PowerBI/
+│   └── Executive_Sales_Dashboard_safe.pbix
 │
 ├── images/
 │   ├── excel-dashboard.png
@@ -262,30 +262,3 @@ Superstore-Sales-Profitability-Analysis/
 │   └── project-demo.mp4
 │
 └── README.md
-```
-
----
-
-## 🎥 Project Demo
-
-[▶️ Watch the Project Demo](images/project-demo.mp4)
-
----
-
-## 📂 Project Files
-
-* [Excel Analysis](excel/Superstore_Analysis_Styled.xlsx)
-* [Power BI Report](powerbi/Executive_Sales_Dashboard.pbix)
-* [Dataset](data/Superstore.xlsx)
-
----
-
-## 👩‍💻 Author
-
-**Zeinab Khaled**
-Data Analyst | Business Information Systems Graduate
-
-Interested in **Data Analysis, Business Intelligence, SQL, Excel and Power BI**.
-
-[LinkedIn](https://www.linkedin.com/in/zeinab-khaled-9a5ab8416/)
-
