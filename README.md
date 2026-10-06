@@ -47,7 +47,7 @@ The dataset was transformed to support business analysis by adding:
 | ------------------------------ | ----------------------------------------------------------- |
 | **Microsoft Excel**            | Data analysis, Pivot Tables, KPIs and interactive dashboard |
 | **Power Query**                | Data cleaning and transformation                            |
-| **Power Pivot / Pivot Tables** | Aggregation and exploratory analysis                        |
+| **Pivot Tables**               | Aggregation and exploratory analysis                        |
 | **Power BI**                   | Interactive business intelligence dashboard                 |
 | **DAX**                        | Measures and profitability calculations                     |
 | **GitHub**                     | Project documentation and portfolio presentation            |
@@ -166,13 +166,11 @@ This indicates that high sales volume does not necessarily translate into strong
 
 ---
 
-### 2. High discounts are strongly associated with negative profit
-
-Orders with discounts above **40%** generated approximately **-$99.6K in total profit**.
-
-The 21–40% discount range also generated a negative result of approximately **-$35.8K**.
-
-This suggests that aggressive discounting can significantly erode profitability.
+### 2. High discounts are strongly associated with losses
+Order lines discounted 40% or more (1,139 lines) lost approximately $122.6K,
+a -50% margin. Lines with no discount earned a 29.5% margin.
+Overall, lines discounted above 20% lost $135K combined, while lines at 20%
+or below earned $421.8K in profit.
 
 ---
 
@@ -208,38 +206,51 @@ For example:
 
 These products should be investigated for pricing, discount levels, cost structure, or strategic fit.
 
+---### 6. Ten states lose money
+
+Ten states have negative profit, totaling about **-$98K**. Texas (-$25.7K),
+Ohio (-$17.0K), Pennsylvania (-$15.6K) and Illinois (-$12.6K) account for
+about -$70.9K of that.
+
+---
+
+### 7. The top customer by sales is unprofitable
+
+Sean Miller is the #1 customer by sales ($25.0K) but generated -$2.0K in
+profit. 155 of 793 customers have negative total profit.
+Segments perform similarly: Home Office 14%, Corporate 13%, Consumer 12%.
+
 ---
 
 ## ✅ Business Recommendations
 
-### 1. Review high-discount pricing policies
+### 1. Introduce a discount cap or approval step above 20%
 
-Introduce stricter discount controls, especially for discount levels above 20–40%, and require additional review for highly discounted orders.
+Lines discounted above 20% lost **$135K combined**, while lines at 20% or
+below earned **$421.8K**.
 
 ### 2. Investigate low-margin product categories
 
-Furniture should receive a deeper profitability review, particularly at the Sub-Category and Product levels.
+Furniture (2.5% margin) should receive a deeper review at Sub-Category and
+Product level, covering pricing, procurement costs and product mix.
 
-Pricing, procurement costs, discount policies, and product mix should be evaluated before increasing sales volume further.
+### 3. Investigate underperforming regions, states and products
 
-### 3. Investigate underperforming regions and products
-
-The Central region and consistently loss-making products should be analyzed further to identify whether the issue is related to pricing, discounts, product mix, or operational factors.
+Review the Central region, the 10 loss-making states and the products with the
+largest losses to identify whether pricing, discounts or product mix is the cause.
 
 ---
 
 ## 🎯 Business Impact
 
-The analysis demonstrates that **increasing sales is not enough to guarantee healthy business performance**.
-
-By identifying loss-making products, controlling excessive discounts, and focusing on low-margin categories and regions, Superstore can make more informed pricing and product decisions while protecting profitability.
+Capping discounts targets the biggest source of loss, and reviewing Furniture
+pricing and the loss-making states addresses the next two.
 
 > **The key business takeaway: Revenue growth should be evaluated together with profitability, not in isolation.**
 
 ---
 
-
-📁 Repository Structure
+## 📁 Repository Structure
 
 ```text
 
